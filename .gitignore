@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# secrets / caches
+.env
+.cache/
+.vscode/
+.python-version
+results/
+RESULTS.md
