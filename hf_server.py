@@ -9,9 +9,7 @@ tok = AutoTokenizer.from_pretrained(os.environ["MODEL"])
 model = AutoModelForCausalLM.from_pretrained(
     os.environ["MODEL"], dtype=torch.bfloat16
 ).to("cuda")
-lock = (
-    threading.Lock()
-)
+lock = threading.Lock()
 app = FastAPI()
 
 

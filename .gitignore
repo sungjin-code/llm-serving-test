@@ -16,3 +16,4 @@ wheels/
 .python-version
 results/
 RESULTS.md
+k6/sessions.js
